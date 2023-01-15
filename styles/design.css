@@ -294,6 +294,8 @@ nav a{
     justify-content: center;
 }
 
+/*Facts Animation Styles*/
+
 .facts-item:hover{
     background-color: rgba(220, 20, 60, 0.164);
     border: 1px solid crimson;
