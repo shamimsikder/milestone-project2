@@ -15,6 +15,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5px;
 }
 
 header{
@@ -315,13 +316,82 @@ nav a{
     text-align: center;
 }
 
+/*Our Works (Extra Section) Styles*/
+
+.works-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.works-details{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.works-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.works-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;  
+    color: #727272;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.works-photo{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.works-photo-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px 10px;    
+}
+
+.works-photo-title{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    text-align: center;
+   
+}
+
+.works-photo-description{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 23px;
+    color: #727272;
+    text-align: center;
+}
+
 /*Our Sponsors*/
 
 .sponsors-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     margin-bottom: 130px;
 }
 
@@ -361,6 +431,10 @@ nav a{
     align-items: center;
 }
 
+.sponsors-photo img{
+    filter: grayscale(100%);
+}
+
 /*Footer Styles*/
 
 .footer-container{
@@ -397,7 +471,7 @@ nav a{
         gap: 20px;
     }
 
-    .features-container, .features-lis-container, .features-lists{
+    .features-container, .features-lis-container, .features-lists, .works-photo{
         flex-direction: column;
     }
 
